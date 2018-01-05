@@ -1,0 +1,45 @@
+{
+  "name": "gulp-x9cli",
+  "version": "1.0",
+  "description": "Gulp cli",
+  "scripts": {
+    "gulp": "gulp",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot"
+  },
+  "author": "x9",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-cache": "^0.2.10",
+    "gulp-changed": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-content-includer": "0.0.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-watch": "^4.3.4",
+    "vue": "^2.4.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "dependencies": {
+    "gulp-webpack": "^1.5.0"
+  }
+}
